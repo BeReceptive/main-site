@@ -423,6 +423,7 @@ body .fixed-top  {
 }
 .mast-head .iphone-mast-head {
     height: auto;
+    max-width: inherit;
 }
 .blockquote {
     margin-top: 80px;
