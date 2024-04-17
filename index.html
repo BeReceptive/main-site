@@ -365,13 +365,16 @@
             Need assistance with onboarding your organization or interested in learning about our future versions? Get in touch with us!</p>
         </div>
         <div class="col-md-8">
-          <form>
+          <form
+            action="https://formspree.io/f/mrgnrbgq"
+            method="POST"
+          >
             <div class="form-row">
               <div class="form-group">
-                <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+                <input name="name" type="text" class="form-control" id="inputAddress" placeholder="Name">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
             </div>
             <div class="form-row">
@@ -398,7 +401,7 @@
             </div>
             <div class="form-row">
               <div class="form-group">
-                <textarea class="form-control" placeholder="Message (Optional)" id="floatingTextarea2" style="height: 100px"></textarea>
+                <textarea name="message" class="form-control" placeholder="Message (Optional)" id="floatingTextarea2" style="height: 100px"></textarea>
               </div>
             </div>
             
